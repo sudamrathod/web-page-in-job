@@ -1,0 +1,240 @@
+html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .job-listing {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            color: #333;
+            cursor: pointer; /* Add pointer cursor to indicate interactivity */
+            margin: 0;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        .description {
+            display: none; /* Hide the description by default */
+        }
+
+        button {
+            background-color:blue;
+            color:white;
+            border:4;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+        
+.apply-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+    </style>
+    
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <section class="job-listing">
+            <div class="container">
+                
+               
+                <div id="support-description" class="job-description">
+                    <section>
+                     <h1 class="job-title"></h1>
+         
+        <!-- "Software Developer" button with a click event to toggle description -->
+        <button class="apply-button" onclick="toggleDescription('developer-description')">Support Team Leader</button>
+        <br><img src="https://img.icons8.com/?size=40&id=52671&format=png"></a> Bhosari Maharashtra &nbsp; Salary range per month: ₹ 15,000 - ₹ 25,000&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+       
+       
+       
+        
+        
+        <!-- Job description div -->
+        <div id="developer-description" class="job-description">
+            <section>
+               <b>Job brief</b>
+        <p>We are looking for a qualified team leader to manage our team and provide effective guidance. You will be responsible for supervising, managing and motivating team members on a daily basis.<br>
+
+As a team leader, you will be the contact point for all team members, so your communication skills should be excellent. You should also be able to act proactively to ensure smooth team operations and effective collaboration.<br>
+
+Ultimately, you should lead by setting a good example and engage the team to achieve goals.<br>
+
+<b>Responsibilities</b><br>
+<br>
+Create an inspiring team environment with an open communication culture<br>
+Set clear team goals<br>
+Delegate tasks and set deadlines<br>
+Oversee day-to-day operation<br>
+Monitor team performance and report on metrics<br>
+Motivate team members<br>
+Discover training needs and provide coaching<br>
+Listen to team members’ feedback and resolve any issues or conflicts<br>
+Recognize high performance and reward accomplishments<br>
+Encourage creativity and risk-taking<br>
+Suggest and organize team building activities<br>
+Requirements and skills<br>
+Proven work experience as a team leader or supervisor<br>
+In-depth knowledge of performance metrics<br>
+Good PC skills, especially MS Excel<br>
+Excellent communication and leadership skills<br>
+Organizational and time-management skills<br>
+Decision-making skills<br>
+Degree in Management or training in team leading is a plus<br>
+
+
+Salary range per month: ₹ 15,000 - ₹ 25,000</p>
+        
+                    </section>
+                </div>
+               <script>
+    window.onload = function() {
+        // Show the job descriptions on page load
+        toggleDescription('developer-description');
+        toggleDescription('customer-support-description');
+    }
+
+    function toggleDescription(descriptionId) {
+        var description = document.getElementById(descriptionId);
+        if (description.style.display === "none") {
+            description.style.display = "block";
+        } else {
+            description.style.display = "none";
+        }
+    }
+</script>
+                 <a href="https://vrushaliinfotech.com/job-applications?new=1&job_title=customer-support-executive" target="_blank" class="apply-button">Apply Now</a>
+            </div>
+        </section>
+        <section class="job-listing">
+            <div class="container">
+                <h1 class="job-title"></h1>
+                <!-- "Customer Support Executive" button with a click event to toggle description -->
+                <button class="apply-button" onclick="toggleDescription('customer-support-description')">Customer Support Executive</button>
+                <br>
+                <img src="https://img.icons8.com/?size=40&id=52671&format=png"></a> Bhosari Maharashtra &nbsp; Salary range per month: ₹ 15,000 - ₹ 25,000&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; 
+       
+                <!-- Job description div -->
+                <!-- Job description div -->
+                <div id="customer-support-description" class="job-description">
+                    <section>
+                        <b>Job Brief:</b>
+                       We’re looking for a Customer Support Executive who can provide excellent customer service and support. The ideal candidate will<br> have strong communication skills, be able to work independently, and have a positive attitude. If you have a passion for helping others and providing exceptional customer service, we want to hear from you!<br>
+                       <br>
+
+
+
+
+
+Customer Support Executive Duties:<br>
+<br>
+
+Maintain excellent customer satisfaction and review support tickets for appropriate resolution<br>
+Provide customer support through phone and chat<br>
+Work with other departments to resolve customer issues in a timely manner<br>
+Serve as a point of contact for customer support and complaints<br>
+Proactively identify, investigate, and resolve recurring customer support issues<br>
+Maintain appropriate documentation and records of customer interactions<br>
+Maintain appropriate files regarding each customer interaction<r>
+Proactively gather and utilize customer feedback and suggestions<br>
+Review customer satisfaction reports to ensure customers are satisfied with the support they receive
+Contribute to the development of future customer support processes
+Communicate effectively with peers and managers
+Communicate to customers during outbound phone calls
+Verifies customer requests are accurate and consistent
+Customer Support Executive Responsibilities:
+
+Answer inbound customer calls
+Handle renewals and cancellations
+Provide account information and status
+Provide workflow assistance
+Manage all customer issues and requests
+Develop and improve customer experience
+Work with IT and Finance teams to resolve customer issues
+Manage complaints
+Requirements And Skills:
+
+Bachelor’s degree in business, computer science or engineering
+0 to 3+ Month of experience in commercial support
+Excellent verbal and written communication, analytical and problem-solving skills
+Strong customer service skills
+Strong interest in IT or construction products
+Knowledge of Excel, Word, and PowerPoint
+
+
+Salary range per month: ₹ 10,000 - ₹ 15,000</p>
+                    </section>
+                </div>
+               <script>
+    window.onload = function() {
+        // Show the job descriptions on page load
+        toggleDescription('developer-description');
+        toggleDescription('customer-support-description');
+    }
+
+    function toggleDescription(descriptionId) {
+        var description = document.getElementById(descriptionId);
+        if (description.style.display === "none") {
+            description.style.display = "block";
+        } else {
+            description.style.display = "none";
+        }
+    }
+</script>
+                <!-- "Apply Now" button linking to the application page -->
+                <a href="https://vrushaliinfotech.com/job-applications?new=1&job_title=customer-support-executive" target="_blank" class="apply-button">Apply Now</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+                    
+                    
+                 
